@@ -13,6 +13,7 @@ function App() {
 		startIndex: 5,
 		offset: 3,
 		tolerance: 2,
+		itemHeight: 20,
 	};
 	const getData = (startIndex: number, offset: number): Array<Data> => {
 		const from = Math.max(startIndex, sampleConfig.minIndex);
